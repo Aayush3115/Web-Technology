@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: center;
+      }
+      table {
+        width: 25rem;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+
+      .Fruit ,.gink, .red{
+        text-align: left;
+      }
+      .Fruit li ol {
+        list-style: lower-roman;
+      }
+
+      img{
+        height: 45px;
+        /* width: 45px; */
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Class</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">7:00</td>
+          <td>A</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <!-- <td>7:00</td> -->
+          <td>C</td>
+          <td>D</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <td rowspan="3">Hello</td>
+          <td>A</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <!-- <td>Hello</td> -->
+          <td>C</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <!-- <td>Hello</td> -->
+          <td>E</td>
+          <td>F</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>G</td>
+          <td>H</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td>K</td>
+          <td>L</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td>time</td>
+          <td colspan="2">class</td>
+          <td colspan="2">class</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7:00</td>
+          <td>a</td>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+        </tr>
+        <tr>
+          <td>8:00</td>
+          <td>E</td>
+          <td>F</td>
+          <td>G</td>
+          <td>H</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <td colspan="3">2022</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="2">Hello</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <!-- <td>Hello</td> -->
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td>H</td>
+          <td>F</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ol class="Fruit">
+      <li>Banana</li>
+      <li>
+        Apple
+        <ol>
+          <li>Red Apple</li>
+          <li>Green Apple</li>
+        </ol>
+      </li>
+      <li>Pineapple</li>
+      <li>Orange</li>
+    </ol>
+
+    <ul class="gink">
+      <li>
+        Fruits
+        <ul>
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Pineapple</li>
+        </ul>
+      </li>
+
+      <li>Vegitabe
+        <ul>
+          <li>Cabbage</li>
+          <li>Potatato</li>
+          <li>Cauliflower</li>
+        </ul>
+      </li>
+      <li>Nuts</li>
+    </ul>
+
+    <ul class="red">
+      <li>Apple
+        <p>A red coloured fruit</p>
+      </li>
+      <li>Honda
+        <p>A Brand of car</p>
+      </li>
+      <li>Spanich
+        <p>A green leafy vegetable</p>
+      </li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <td>Coutry</td>
+          <td>Flag</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nepal</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/139px-Flag_of_Nepal.svg.png" alt=""></td>
+        </tr>
+        <tr>
+          <td>India</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt=""></td>
+        </tr>
+        <tr>
+          <td>China</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/255px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+  </body>
+</html>

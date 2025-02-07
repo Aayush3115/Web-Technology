@@ -1,0 +1,16 @@
+.helloText{
+    color: yellow;
+}
+.hiText{
+    color: green;
+}
+.heyText{
+    color: red;
+}
+body {
+    background-color: lightgrey;
+}
+
+.imageRound {
+    height: 50rem;
+}
