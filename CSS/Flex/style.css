@@ -8,9 +8,13 @@
     /* justify-content: space-evenly; */
     border: 10px solid black;
     height: 85vh;
-    align-items: baseline;
+    /* align-items: baseline; */
     /* align-items: center; */
     /* align-items: flex-start; */
+    /* flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em; */
 }
 
 .box{
@@ -28,6 +32,8 @@
 #box2{
     background-color: red;
     font-size: 180px;
+    /* align-self: end; */
+    order: 1;
 }
 
 #box3{
@@ -35,5 +41,21 @@
 }
 
 #box4{
-    background-color: yellow;
+    background-color: rgb(39, 189, 89);
 }
+
+/* #box5{
+    background-color: rgb(150, 1, 130);
+}
+
+#box6{
+    background-color: rgb(53, 241, 35);
+}
+
+#box7{
+    background-color: rgb(238, 63, 101);
+}
+
+#box8{
+    background-color: yellow;
+} */
