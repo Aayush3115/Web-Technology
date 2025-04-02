@@ -1,0 +1,8 @@
+JSON.parse() converts json to js object 
+
+json.stringify(jsobject) converts js oject to json
+
+document.cookie
+
+
+jquery 

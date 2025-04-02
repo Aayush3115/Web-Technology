@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collage>
+    <title>My collage</title>
+    <description>My Collage Name is Sushma Gdawari</description>
+    <location>Itahari, Nepal</location>
+    <established>2023-10-01</established>
+    <cource>
+        <cources>Bsc.CSIT</cources>
+        <cources>BBS</cources>
+        <cources>+2</cources>
+    </cource>
+</collage>
